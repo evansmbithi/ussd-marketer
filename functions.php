@@ -7,7 +7,7 @@ function main_menu($advert){
 
   // main menu display
   // $text is only available in this scope
-  $text = "Airtime Balance: KSH XXX.\nExpiry Date: XX-XX-XXXX.\n$company: $message\n$contact";
+  $text = "Airtime Balance: KSH 100.\nExpiry Date: 31-12-2024.\n$company: $message\n$contact";
   ussd_proceed($text);
 }
 
